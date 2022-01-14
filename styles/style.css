@@ -6,3 +6,182 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+html,
+body {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+/* Section 1 */
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  width: 150px;
+}
+
+.navLinks {
+  flex: 1;
+  /* aligns all items in one row */
+  word-spacing: 10px;
+  text-align: right;
+}
+
+.navLinks ul li {
+  display: inline-block;
+  padding-left: 8px 20px;
+  position: relative;
+}
+
+.navLinks ul li a {
+  color: rgb(105, 105, 105);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Section 2 */
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.title {
+  top: 250px;
+  width: 100vh;
+  position: absolute;
+  width: 100%;
+  font-size: 64px;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.title2 {
+  top: 350px;
+  width: 100vh;
+  position: absolute;
+  width: 100%;
+  font-size: 32px;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+/* Section 3 */
+.sec3Title {
+  text-align: center;
+  font-size: 48px;
+}
+hr {
+  margin: auto;
+  border: 2px solid #00b172;
+  border-radius: 15%;
+  width: 400px;
+}
+
+.flex3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.flex3 h4 {
+  margin-top: 50px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #00b172;
+}
+.flex3 p {
+  font-size: 22px;
+  color: rgb(105, 105, 105);
+}
+
+.sec1 h4 {
+  margin-bottom: 40px;
+}
+.sec2 h4 {
+  margin-top: 70px;
+}
+.sec3 h4 {
+  margin-top: 45px;
+}
+
+.sec1 p {
+  margin-bottom: 15px;
+}
+.sec2 p {
+  margin-top: 35px;
+}
+.sec3 p {
+  margin-top: 15px;
+}
+
+.sec1 {
+  margin-right: 100px;
+}
+
+.sec3 {
+  margin-left: 100px;
+}
+
+/* Section 4 */
+.flex {
+  width: 90%;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  background: #00b172;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  margin-left: 200px;
+  color: white;
+}
+.middle {
+  margin-right: 200px;
+}
+.right {
+  margin-right: 200px;
+}
+
+.s4Title {
+  font-size: 42px;
+  margin-top: -100px;
+  border-bottom: 3px solid white;
+}
+
+.s4h3,
+.s4p {
+  margin-top: 40px;
+}
+
+.s4h3 {
+  font-size: 36px;
+}
+
+.s4p {
+  font-size: 18px;
+}
